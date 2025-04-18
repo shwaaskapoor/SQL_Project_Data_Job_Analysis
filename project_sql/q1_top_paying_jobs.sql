@@ -1,9 +1,12 @@
 /*
 Query 1
+
 Question: What were the top-paying Data Analyst Jobs in 2023?
 - Identify the top 15 highest-paying Data Analyst jobs available in Canada.
 - Focus on job postings with specified salaries (remove nulls).
+
 Goal: Highlight top-paying jobs for Data Analysts and offer insights into employment as a Data Analyst.
+
 */
 
 SELECT

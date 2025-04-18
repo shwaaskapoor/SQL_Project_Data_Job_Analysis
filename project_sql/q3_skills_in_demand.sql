@@ -1,9 +1,11 @@
 /*
 Query 3
+    
     Question: What are the most in-demand skills for Data Analysts in Canada?
     - Join job postings to inner join table, similar to Query 2.
     - Identify the top 5 in-demand skills for a Data Analyst.
     - Focus on all job postings in Canada, regardless of salary.
+    
     Goal: Identify the most desired skills for Data Analysts in the Canadian job market.
 */
 

@@ -31,10 +31,12 @@ The project includes SQL scripts located in the project_sql directory, focusing 
 - q3_skills_in_demand.sql: Identifies the most in-demand skills for data analyst roles.
 - q4_skills_by_avg_salary.sql: Analyzes which skills are associated with higher average salaries.
 - q5_optimal_skills.sql: Determines the optimal skills to learn for maximizing salary and demand.
+- qx_stat_significance: Investigating if queries influenced by salary have signficance based on job postings with and without salaries listed.
 
 **Tools & Technologies**
 
 - PostgreSQL
+- Tableau
 
 **How to Use**
 
@@ -45,6 +47,5 @@ The project includes SQL scripts located in the project_sql directory, focusing 
 
 **Future Enhancements**
 
-- Integrate with Power BI or Tableau for dynamic reporting.
 - Expand the dataset to include more job postings.
 - Automate data collection for real-time updates.

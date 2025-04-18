@@ -1,0 +1,14 @@
+-- Total # of positions in Canada with vs without salary, also expressed as a %
+
+WITH filtered_jobs AS (
+    SELECT *
+    FROM job_postings_fact
+    WHERE job_title_short = 'Data Analyst'
+      AND search_location = 'Canada'
+)
+
+SELECT
+    COUNT(salary_year_avg) AS jobs_with_salary,
+    COUNT(*) AS jobs_total,
+    ROUND(100.0 * COUNT(salary_year_avg) / COUNT(*), 2) AS salary_data_percent
+FROM filtered_jobs;

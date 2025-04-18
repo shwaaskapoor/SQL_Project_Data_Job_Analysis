@@ -3,12 +3,14 @@ Query 4
     Question: Which skills are associated with the highest paying average salary for Data Analysts?
     - Compile a list of skills included in Data Analyst positions.
     - Find averages of yealy salaries, ensuring NULL records are not included.
-    GOAL: Identify if there is a trend in the types of skills associated with high average salaries.
+    
+    Goal: Identify if there is a trend in the types of skills associated with high average salaries.
 */
 
 SELECT
     skills,
-    ROUND (AVG(salary_year_avg), 0) AS avg_salary
+    ROUND (AVG(salary_year_avg), 0) AS avg_salary,
+    COUNT(salary_year_avg) AS salary_count
 FROM job_postings_fact
 INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
 INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id

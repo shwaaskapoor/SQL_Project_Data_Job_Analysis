@@ -1,7 +1,8 @@
 /*
 Query 5
     Question: What are the most optimal skills to learn for a Data Analyst position in Canada?
-    - Optimal is defined as being in high demand and associatedd with high average salaries.
+    - Optimal is defined as being in high demand and associated with high average salaries.
+    
     GOAL: Understand which skills will offer candidates a large opportunity pool (high demand) and be financially rearding (high salaries).
 */
 
